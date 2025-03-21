@@ -1,0 +1,763 @@
+/* Min-Width */
+
+@media (min-width: 480px) {}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .swiper-pagination {
+        display: none;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .container {
+        max-width: 940px;
+    }
+
+}
+
+@media (min-width: 1025px) {}
+
+@media (min-width: 1100px) {
+
+    .container {
+        max-width: 1020px;
+    }
+
+}
+
+
+
+@media (min-width: 1199px) {
+
+    .container {
+        max-width: 1100px;
+    }
+
+
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1177px;
+    }
+
+}
+
+@media (min-width: 2250px) {}
+
+@media (min-width: 3050px) {}
+
+/* Max-Width */
+
+@media (max-width: 1999px) {
+
+    /* .hero {
+        bottom: 0px;
+    } */
+
+}
+
+@media (max-width: 1500px) {}
+
+@media (max-width: 1300px) {}
+
+@media (max-width: 1199px) {
+
+    .section-5 .Features figure {
+        max-width: 50.5%;
+    }
+
+    .section-5 .Benefits-sub-title {
+        font-size: 1.625rem;
+    }
+
+    .section-5 .Benefits-sub-para {
+        font-size: 1rem;
+    }
+
+    .Features {
+        margin-bottom: 3.75rem;
+    }
+
+    .curious .curious-img figure .img-special-6 {
+        bottom: 4rem;
+    }
+
+    .section-7 .section-7text p {
+        font-size: 1rem;
+    }
+
+    .section-7 .section-7text h4 {
+        font-size: 4vw;
+    }
+
+
+
+}
+
+@media (max-width: 1024.9px) {
+
+    .section-5 .Features figure {
+        max-width: 50.5%;
+    }
+
+    .section-5 .Benefits-sub-title {
+        font-size: 1.625rem;
+    }
+
+    .section-5 .Benefits-sub-para {
+        font-size: 1rem;
+    }
+
+    .Features {
+        margin-bottom: 3.75rem;
+    }
+
+    .drooling-yet {
+        padding-top: 5.25rem;
+    }
+
+    .section-6 .section-6-main .curious h4 {
+        font-size: 6.5vw;
+    }
+
+    .curious .curious-img figure {
+        top: 10px;
+    }
+
+    .curious .curious-img figure .img-special {
+        bottom: 0.5rem;
+    }
+
+    .curious .curious-img figure .img-special-6 {
+        bottom: 3.7rem;
+    }
+
+    .section-7 .section-7text p {
+        font-size: 1rem;
+    }
+
+    .section-7 .section-7text h4 {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 991px) {
+
+
+    .nav-content ul {
+        display: none;
+    }
+
+    .nav-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    header .hero .intro-title1 {
+        /* font-size: clamp(1rem, 17vw, 35vh); */
+        font-size: 168px;
+    }
+
+    .hero {
+        bottom: 0px;
+    }
+
+    .section-1 .section-1text h3 {
+        font-size: 3rem;
+    }
+
+    .section-1 .section-1text p {
+        font-size: 1.125rem;
+    }
+
+    .section-2 .section-2text h3 {
+        font-size: 3rem;
+        max-width: 80%;
+    }
+
+    .section-2 .section-2text p {
+        font-size: 1.125rem;
+    }
+
+    .section-3 .section-3text h3 {
+        font-size: 3rem;
+    }
+
+    .section-3 .section-3text p {
+        font-size: 1.125rem;
+    }
+
+    .section-4 .section-4text h3 {
+        font-size: 3rem;
+    }
+
+    .section-4 .section-4text p {
+        font-size: 1.125rem;
+    }
+
+    .section-5 .Features figure {
+        max-width: 30%;
+    }
+
+    .section-5 .Benefits-sub-title {
+        font-size: 1.5rem;
+    }
+
+    .section-5 .Features figure {
+        padding-bottom: 1.875rem;
+    }
+
+    .section-5 .Benefits-sub-para {
+        font-size: 1rem;
+    }
+
+    .Features {
+        margin-bottom: 3.125rem;
+    }
+
+    .section-6 .section-6-main .curious {
+        aspect-ratio: 1 / 0.8;
+    }
+
+    .drooling-yet {
+        padding-top: 5rem;
+    }
+
+    .curious .curious-img figure .img-special-5 {
+        width: 78%;
+    }
+
+    .curious .curious-img figure .img-special {
+        width: 70%;
+    }
+
+    .curious .curious-img figure img {
+        width: 70%;
+    }
+
+    .curious-1 .curious-img figure {
+        top: 0px;
+    }
+
+    .curious-5 .curious-img figure {
+        top: 21px;
+    }
+
+    .section-6 .section-6-main .curious h4 {
+        font-size: 3.12rem;
+    }
+
+    .section-7 .section-7img figure {
+        margin-bottom: 3.125rem;
+    }
+
+    .section-7 .section-7text h4 {
+        font-size: 5vw;
+    }
+
+    .section-6::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        padding-bottom: 100%;
+        background-color: #042F1A;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: -1;
+    }
+
+    .section-7 {
+        padding: 6rem 0 0 0;
+    }
+
+    .section-8 .swiper-wrapper {
+        padding: 2.538rem 6.688rem 7.5rem;
+    }
+
+    .section-7 .section-7img figure img {
+        width: 75%;
+    }
+
+    .section-7 .section-7img figure {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-7text {
+        padding-left: 3.125rem;
+    }
+
+    .section-9 .container-main h3 {
+        font-size: 4.375rem;
+    }
+
+    .section-9 .container-main h3 {
+        padding: 2.375rem 0 0;
+    }
+
+    .curious-4 .curious-img figure {
+        top: -36px;
+    }
+
+    .curious-5 .curious-img figure {
+        top: -20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .hero {
+        bottom: -20px;
+    }
+
+    header .hero .intro-title1 {
+        /* font-size: clamp(1rem, 16.5vw, 35vh); */
+        font-size: 126px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    header .hero .intro-title1 {
+        font-size: 120px;
+    }
+
+    header .pictures {
+        width: 33%;
+    }
+
+    header .pictures img {
+        padding-top: 33px;
+    }
+
+    header {
+        min-height: 80vh;
+    }
+
+    .section-1img figure {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-1img figure img {
+        width: 80%;
+    }
+
+    .section-2img figure img {
+        width: 80%;
+    }
+
+    .section-2img figure {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-2img {
+        padding: 30px 0px;
+    }
+
+    .section-3img figure {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-3img figure img {
+        width: 80%;
+        padding: 30px 0px;
+    }
+
+    .section-4img figure {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-4img figure img {
+        width: 80%;
+        padding: 30px 0px;
+    }
+
+    .section-4::before {
+        display: none;
+    }
+
+    .section-3::before {
+        display: none;
+    }
+
+    .section-3 .section-3text h3 {
+        padding-top: 3.125rem;
+    }
+
+    .section-5 h4 {
+        padding-top: 3.125rem;
+    }
+
+    .drooling-yet {
+        padding-top: 3rem;
+    }
+
+    .section-6 .row {
+        flex-wrap: nowrap;
+    }
+
+    .section-6 .swiper-wrapper {
+        padding: 0;
+    }
+
+    .section-6::after {
+        padding-bottom: 20%;
+    }
+
+    .section-6 .section-6-main .curious {
+        margin: 0px 50px;
+    }
+
+    .curious-3 .curious-img figure {
+        top: 5px;
+    }
+
+    .curious-4 .curious-img figure {
+        top: 5px;
+    }
+
+    .curious-1 .curious-img figure {
+        top: 5px;
+    }
+
+    .curious-5 .curious-img figure {
+        top: 25px;
+    }
+
+    .curious-5 .curious-img figure .img-special-5 {
+        width: 75%;
+    }
+
+    .curious-6 .curious-img figure img {
+        width: 65%;
+    }
+
+    .curious-6 .curious-img figure {
+        top: 65px;
+    }
+
+    .section-7 .section-7text p {
+        margin: 3rem 0 3rem 0;
+    }
+
+    .section-8 .swiper-wrapper {
+        padding: 2.538rem 4.688rem 5.5rem;
+    }
+
+    .privacy-main {
+        flex-direction: column;
+    }
+
+    .privacy-special {
+        justify-content: center !important;
+    }
+
+    .drooling-yet {
+        margin-bottom: 3.25rem;
+    }
+
+    .section-6 .section-6-main .curious:hover .animation {
+        animation: none;
+    }
+
+    .section-6 .section-6-main .curious:hover .animation-img {
+        animation: none;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    header .hero .intro-title1 {
+        font-size: 105px;
+    }
+
+    .section-1::after {
+        display: none;
+    }
+
+    .section-2img figure img {
+        width: 60%;
+    }
+
+    .section-1img figure img {
+        width: 70%;
+    }
+
+    .section-1 .section-1text h3 {
+        font-size: 2.5rem;
+    }
+
+    .section-1 .section-1text p {
+        font-size: 1rem;
+    }
+
+    .section-1padding {
+        padding-left: 30px;
+    }
+
+    .section-2 .section-2text h3 {
+        font-size: 2.5rem;
+        /* max-width: 100%; */
+    }
+
+    .section-2 .section-2text p {
+        font-size: 1rem;
+    }
+
+    .section-2text-margin {
+        padding-left: 30px;
+    }
+
+    .section-3img figure img {
+        width: 60%;
+    }
+
+    .section-3 .section-3text p {
+        font-size: 1rem;
+    }
+
+    .section-3 .section-3text h3 {
+        font-size: 2.5rem;
+    }
+
+    .section-3padding {
+        padding-left: 30px;
+    }
+
+    .section-4 .section-4text p {
+        font-size: 1rem;
+    }
+
+    .section-4 .section-4text h3 {
+        font-size: 2.5rem;
+    }
+
+    .section-4text-margin {
+        padding-left: 30px;
+    }
+
+    .section-4img figure img {
+        width: 60%;
+    }
+
+    .section-5 h4 {
+        padding-top: 0;
+    }
+
+    .section-5 h4 {
+        font-size: 2.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .section-5 .Features figure {
+        max-width: 20%;
+    }
+
+    .Features {
+        margin-bottom: 1rem;
+    }
+
+    .section-5 .Benefits-sub-para {
+        font-size: 0.875rem;
+    }
+
+    .section-5 .Benefits-sub-title {
+        font-size: 1.375rem;
+    }
+
+    .section-6::before {
+        padding-bottom: 130%;
+    }
+
+    .section-7 .section-7text p {
+        margin-top: 1.5rem;
+    }
+
+    .section-7 .section-7text h4 {
+        font-size: 7vw;
+    }
+
+    .section-8 .swiper-wrapper {
+        padding: 2.538rem 3.688rem 5.5rem;
+    }
+
+    .section-8 .custom-box {
+        min-width: 210px;
+    }
+
+    .section-9 .container-main h3 {
+        font-size: 3.375rem;
+    }
+
+    .form-submission {
+        flex-direction: column;
+    }
+
+    .section-10 .submit {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-img {
+        padding-top: 3rem;
+    }
+
+    .section-10::before {
+        padding-bottom: 120%;
+    }
+
+    .section-10::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        padding-bottom: 50%;
+        background-color: #FF73B5;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: -1;
+    }
+
+    .rotate-circle {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 479px) {
+
+    header .hero .intro-title1 {
+        font-size: 100px;
+    }
+
+    .hero {
+        bottom: -40px;
+    }
+
+    .section-6 .section-6-main .curious {
+        margin: 0px 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    header .hero .intro-title1 {
+        font-size: 88px;
+    }
+
+    .section-6 .section-6-main .curious {
+        margin: 0px 15px;
+    }
+
+    .section-6::after {
+        padding-bottom: 50%;
+    }
+
+    .section-7 .section-7text p {
+        font-size: 0.875rem;
+        line-height: 1.6rem;
+    }
+
+    .section-6 .section-6-btn {
+        font-size: 1.2rem;
+    }
+
+    .section-7-btn {
+        font-size: 1.2rem;
+    }
+
+    .input-submit {
+        font-size: 1.2rem;
+    }
+
+    .section-10 .input-box {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 375px) {
+    header .hero .intro-title1 {
+        font-size: 80px;
+    }
+
+    .hero {
+        bottom: -65px;
+    }
+
+    header .pictures {
+        width: 38%;
+    }
+
+    .section-1padding {
+        padding-left: 0;
+    }
+
+    .section-2text-margin {
+        padding-left: 0;
+    }
+
+    .section-3padding {
+        padding-left: 0;
+    }
+
+    .section-4text-margin {
+        padding-left: 0;
+    }
+
+    .section-6 .section-6-main .curious {
+        margin: 0px 5px;
+    }
+
+    .section-9 .container-main h3 {
+        font-size: 2.375rem;
+    }
+
+    .section-10::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        padding-bottom: 70%;
+        background-color: #FF73B5;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: -1;
+    }
+
+    .rotate-circle {
+        max-width: 105px;
+    }
+
+    .copyright {
+        font-size: 0.875rem;
+    }
+
+    .section-10 .privacy P {
+        font-size: 0.875rem;
+    }
+
+    .marquee-magic h4 {
+        font-size: 1.125rem;
+    }
+
+    .nav-content svg {
+        width: 150px;
+    }
+    
+}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {}
