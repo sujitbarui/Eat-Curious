@@ -11,7 +11,11 @@
 
 ## 🛠️ Tech Stack  
 - **Frontend:** HTML, CSS, JavaScript  
-- **Libraries:** GSAP, Swiper.js, Bootstrap  
+- **Libraries:** GSAP, Swiper.js, Bootstrap
+
+🌐 Live Preview
+You can check out the current progress of this project here:
+🔗 [Live Demo](https://sujitbarui.github.io/Eat-Curious/)
 
 ## 📌 Installation & Setup  
 
