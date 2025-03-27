@@ -1,4 +1,4 @@
-# 🍽️ Eat Curious  
+# 🍽️ Eat Curious  (Work in Progress) 🚧
 
 **Eat Curious** is a modern, animated food website built with **GSAP** for smooth animations and dynamic interactions. It offers a visually engaging experience for food lovers, featuring animated transitions, sleek UI, and a responsive design. 🚀✨  
 
