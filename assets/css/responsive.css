@@ -97,6 +97,10 @@
         font-size: 4vw;
     }
 
+    header .pictures {
+        width: 29%;
+    }
+
 
 
 }
@@ -146,6 +150,10 @@
     .section-7 .section-7text h4 {
         font-size: 4vw;
     }
+
+    header .pictures {
+        width: 34%;
+    }
 }
 
 @media (max-width: 991px) {
@@ -165,9 +173,9 @@
         font-size: 168px;
     }
 
-    .hero {
+    /* .hero {
         bottom: 0px;
-    }
+    } */
 
     .section-1 .section-1text h3 {
         font-size: 3rem;
@@ -310,18 +318,46 @@
     .curious-5 .curious-img figure {
         top: -20px;
     }
+
+    .hero {
+        bottom: 20px;
+    }
+
+    header .pictures {
+        width: 38%;
+    }
 }
 
 
 @media (max-width: 768px) {
 
-    .hero {
+    /* .hero {
         bottom: -20px;
-    }
+    } */
 
     header .hero .intro-title1 {
         /* font-size: clamp(1rem, 16.5vw, 35vh); */
         font-size: 126px;
+    }
+
+    .squiggle1 {
+        top: -20px ;
+    }
+
+    header .pictures img {
+        padding-top: 48px;
+    }
+
+    header .pictures {
+        width: 33%;
+    }
+
+    header .hero .intro-title1 {
+        font-size: 155px;
+    }
+
+    .hero {
+        bottom: -20px;
     }
 }
 
@@ -331,17 +367,13 @@
         font-size: 120px;
     }
 
-    header .pictures {
-        width: 33%;
-    }
-
     header .pictures img {
         padding-top: 33px;
     }
 
-    header {
+    /* header {
         min-height: 80vh;
-    }
+    } */
 
     .section-1img figure {
         display: flex;
@@ -394,10 +426,6 @@
     }
 
     .section-3 .section-3text h3 {
-        padding-top: 3.125rem;
-    }
-
-    .section-5 h4 {
         padding-top: 3.125rem;
     }
 
@@ -481,7 +509,7 @@
 
 @media screen and (max-width: 575px) {
     header .hero .intro-title1 {
-        font-size: 105px;
+        font-size: 110px;
     }
 
     .section-1::after {
@@ -551,10 +579,6 @@
 
     .section-4img figure img {
         width: 60%;
-    }
-
-    .section-5 h4 {
-        padding-top: 0;
     }
 
     .section-5 h4 {
@@ -634,6 +658,22 @@
     .rotate-circle {
         max-width: 120px;
     }
+
+    header .pictures {
+        width: 30%;
+    }
+
+    .squiggle2 {
+        display: none;
+    }
+
+    .squiggle3 {
+        display: none;
+    }
+
+    .section-2::before {
+        display: none;
+    }
 }
 
 @media (max-width: 479px) {
@@ -642,9 +682,9 @@
         font-size: 100px;
     }
 
-    .hero {
+    /* .hero {
         bottom: -40px;
-    }
+    } */
 
     .section-6 .section-6-main .curious {
         margin: 0px 30px;
@@ -685,19 +725,39 @@
         font-size: 1rem;
     }
 
+    header .pictures img {
+        padding-top: 22px;
+    }
+
+    .squiggle1 {
+        top: -38px;
+        left: 44%;
+        width: 30px;
+    }
+
+    .hero {
+        bottom: -35px;
+    }
+
+    header .pictures {
+        width: 32%;
+    }
+
+    header .container {
+        padding-bottom: 200px;
+    }
+
+    .hero {
+        bottom: -55px;
+    }
+
+
+
 }
 
 @media (max-width: 375px) {
     header .hero .intro-title1 {
         font-size: 80px;
-    }
-
-    .hero {
-        bottom: -65px;
-    }
-
-    header .pictures {
-        width: 38%;
     }
 
     .section-1padding {
@@ -755,9 +815,21 @@
     .nav-content svg {
         width: 150px;
     }
+
+    header .pictures {
+        width: 33%;
+    }
     
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+    header .hero .intro-title1 {
+        font-size: 75px;
+    }
+
+    header .pictures {
+        width: 34%;
+    }
+}
 
 @media (max-width: 320px) {}

@@ -1,15 +1,55 @@
-gsap.to(".gsap-stacking-pages", {
-  y: "-100%",
-  stagger: 0.5,
-  scrollTrigger: {
-    trigger: ".gsap-stacked-trigger",
-    pin: true,
-    scrub: true,
-    start: "0%",
-    end: "top -400%",
-    markers : true,
+// gsap.to(".gsap-stacking-pages", {
+//   y: "-100%",
+//   stagger: 0.5,
+//   scrollTrigger: {
+//     trigger: ".gsap-stacked-trigger",
+//     pin: true,
+//     scrub: true,
+//     markers : true,
+//     start: "0%",
+//     end: () => `+=${document.querySelector('.gsap-stacking-pages').offsetHeight * 4}`,
+//   }
+// });
+
+const sections = document.querySelectorAll(".sujit");
+
+// Loop through each section and apply styles
+sections.forEach(section => {
+  section.style.height = "100vh"; // Set height for each section
+  console.log(section); // Debug: Logs each section element
+});
+
+// Retrieve the stored height or set it for the first time
+let initialHeight = localStorage.getItem("lockedHeight");
+
+if (!initialHeight) {
+  initialHeight = window.innerHeight;
+  localStorage.setItem("lockedHeight", initialHeight);
+}
+
+// ✅ Loop through each section again to set the stored height
+sections.forEach(section => {
+  section.style.height = `${initialHeight}px`;
+});
+
+// ✅ Fix resize event (loop through all sections)
+window.addEventListener("resize", () => {
+  if (window.innerHeight !== initialHeight) {
+    sections.forEach(section => {
+      section.style.height = `${initialHeight}px`;
+    });
   }
 });
+
+
+
+
+
+
+
+
+
+
 
 function createAnimation(element) {
   const tl = gsap.timeline({ paused: true, delay: 1 });
@@ -64,25 +104,25 @@ window.onload = () => {
 };
 
 
-gsap.to(".section-9", {
-  scrollTrigger: {
-    trigger: ".section-9",
-    start: "top top",
-    end: "top -100%",
-    pin: true,
-    pinSpacing: false,
-  }
-});
+// gsap.to(".section-9", {
+//   scrollTrigger: {
+//     trigger: ".section-9",
+//     start: "top top",
+//     end: "top -100%",
+//     pin: true,
+//     pinSpacing: false,
+//   }
+// });
 
-gsap.from(".section-9img", {
-  filter: "blur(10px)",
-  duration : 2,
-  scrollTrigger: {
-    trigger : ".section-9img img",
-    start : "top 50%",
-    end : "top -100%"
-  }
-})
+// gsap.from(".section-9img", {
+//   filter: "blur(10px)",
+//   duration : 2,
+//   scrollTrigger: {
+//     trigger : ".section-9img img",
+//     start : "top 50%",
+//     end : "top -100%"
+//   }
+// })
 
 function scrollRotate() {
   let image = document.getElementById("abc");

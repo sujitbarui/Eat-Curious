@@ -1,8 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 html,
 body {
-    width: 100%;
     font-family: "Rubik", serif;
 }
+
 
 h1,
 h2,
@@ -104,27 +110,23 @@ body ul li {
 }
 
 nav {
-    width: 100%;
-    /* min-height: auto; */
     background-color: #042F1A;
     position: relative;
-    /* z-index: 9999; */
+    z-index: 9999;
 
 }
 
-/* .main {
-    min-height: 100vh;
-} */
 header {
-    width: 100%;
-    /* min-height: 95vh; */
     background-color: #042F1A;
     /* position: relative;
     z-index: 9; */
 }
 
+header .container {
+    padding-bottom: 100px;
+}
+
 header .hero .intro-title1 {
-    /* font-size: clamp(1rem, 19.5vw, 35vh); */
     font-size: 210px;
     color: #fff;
     font-weight: 800;
@@ -135,9 +137,9 @@ header .hero .intro-title1 {
 .hero {
     display: flex;
     justify-content: center;
-    align-items: center;
     position: relative;
     bottom: 35px;
+    /* background-color: rebeccapurple; */
 }
 
 header .pictures {
@@ -202,10 +204,9 @@ header .pictures img {
 
 .section-1 {
     background-color: #FF73B5;
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
+    /* height: 100vh; */
     z-index: 4;
+    position: relative;
 }
 
 .section-1 .section-1text h3 {
@@ -264,10 +265,9 @@ header .pictures img {
 }
 
 .section-2 {
-    background-color: #fff;
     position: relative;
-    width: 100%;
-    min-height: 100vh;
+    background-color: #fff;
+    /* height: 100vh; */
     z-index: 3;
 }
 
@@ -318,10 +318,9 @@ header .pictures img {
 
 .section-3 {
     background-color: #D4ED6D;
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
+    /* height: 100vh; */
     z-index: 2;
+    position: relative;
 }
 
 .section-3img figure {
@@ -365,10 +364,9 @@ header .pictures img {
 
 .section-4 {
     background-color: #042F1A;
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     z-index: 1;
+    position: relative;
 }
 
 .section-4img figure {
@@ -418,22 +416,21 @@ header .pictures img {
 
 .gsap-stacked-trigger {
     position: relative;
-    height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .gsap-stacking-pages {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
 }
 
 .section-5 {
     width: 100%;
     text-align: center;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    /* padding-top: 10vh;
+    padding-bottom: 10vh; */
 }
 
 .section-5 h4 {
@@ -445,6 +442,7 @@ header .pictures img {
     margin: 0 0 1.73rem 0;
     color: #042F1A;
     margin-bottom: 6.4375rem;
+    padding-top: 3.125rem;
 }
 
 .Features {
@@ -741,11 +739,11 @@ header .pictures img {
 .color-1 {
     background-color: #1ABE71;
 }
-
+/* 
 .section-9 {
     width: 100%;
     min-height: 100vh;
-}
+} */
 
 .section-9 .container-main {
     text-align: center;
