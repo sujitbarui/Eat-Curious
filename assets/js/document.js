@@ -12,14 +12,10 @@
 // });
 
 const sections = document.querySelectorAll(".sujit");
-
-// Loop through each section and apply styles
 sections.forEach(section => {
-  section.style.height = "100vh"; // Set height for each section
-  console.log(section); // Debug: Logs each section element
+  section.style.height = "100vh";
 });
 
-// Retrieve the stored height or set it for the first time
 let initialHeight = localStorage.getItem("lockedHeight");
 
 if (!initialHeight) {
@@ -27,12 +23,10 @@ if (!initialHeight) {
   localStorage.setItem("lockedHeight", initialHeight);
 }
 
-// ✅ Loop through each section again to set the stored height
 sections.forEach(section => {
   section.style.height = `${initialHeight}px`;
 });
 
-// ✅ Fix resize event (loop through all sections)
 window.addEventListener("resize", () => {
   if (window.innerHeight !== initialHeight) {
     sections.forEach(section => {
