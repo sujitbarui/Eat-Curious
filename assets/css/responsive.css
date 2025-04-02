@@ -319,12 +319,17 @@
         top: -20px;
     }
 
-    .hero {
+    /* .hero {
         bottom: 20px;
-    }
+    } */
 
     header .pictures {
         width: 38%;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -356,9 +361,9 @@
         font-size: 155px;
     }
 
-    .hero {
+    /* .hero {
         bottom: -20px;
-    }
+    } */
 }
 
 @media (max-width: 767px) {
@@ -735,21 +740,17 @@
         width: 30px;
     }
 
-    .hero {
+    /* .hero {
         bottom: -35px;
-    }
+    } */
 
     header .pictures {
         width: 32%;
     }
 
-    header .container {
-        padding-bottom: 200px;
-    }
-
-    .hero {
+    /* .hero {
         bottom: -55px;
-    }
+    } */
 
 
 

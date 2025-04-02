@@ -11,12 +11,45 @@
 //   }
 // });
 
-const sections = document.querySelectorAll(".sujit");
+// const sections = document.querySelectorAll(".sujit");
 
-// Loop through each section and apply styles
-sections.forEach(section => {
-  section.style.height = "100vh"; // Set height for each section
-  console.log(section); // Debug: Logs each section element
+// // Loop through each section and apply styles
+// sections.forEach(section => {
+//   section.style.height = "100vh"; // Set height for each section
+//   console.log(section); // Debug: Logs each section element
+// });
+
+// // Retrieve the stored height or set it for the first time
+// let initialHeight = localStorage.getItem("lockedHeight");
+
+// if (!initialHeight) {
+//   initialHeight = window.innerHeight;
+//   localStorage.setItem("lockedHeight", initialHeight);
+// }
+
+// // ✅ Loop through each section again to set the stored height
+// sections.forEach(section => {
+//   section.style.height = `${initialHeight}px`;
+// });
+
+// // ✅ Fix resize event (loop through all sections)
+// window.addEventListener("resize", () => {
+//   if (window.innerHeight !== initialHeight) {
+//     sections.forEach(section => {
+//       section.style.height = `${initialHeight}px`;
+//     });
+//   }
+// });
+
+
+
+
+const elements = document.querySelectorAll("header, .sujit"); // Select both header and sections
+
+// Loop through each element (header + sections) and apply styles
+elements.forEach(element => {
+  element.style.height = "100vh"; // Set height for each element
+  console.log(element); // Debug: Logs each element
 });
 
 // Retrieve the stored height or set it for the first time
@@ -27,16 +60,16 @@ if (!initialHeight) {
   localStorage.setItem("lockedHeight", initialHeight);
 }
 
-// ✅ Loop through each section again to set the stored height
-sections.forEach(section => {
-  section.style.height = `${initialHeight}px`;
+// ✅ Loop through each element again to set the stored height
+elements.forEach(element => {
+  element.style.height = `${initialHeight}px`;
 });
 
-// ✅ Fix resize event (loop through all sections)
+// ✅ Fix resize event (loop through all elements)
 window.addEventListener("resize", () => {
   if (window.innerHeight !== initialHeight) {
-    sections.forEach(section => {
-      section.style.height = `${initialHeight}px`;
+    elements.forEach(element => {
+      element.style.height = `${initialHeight}px`;
     });
   }
 });
