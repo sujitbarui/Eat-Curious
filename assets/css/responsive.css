@@ -169,8 +169,7 @@
     }
 
     header .hero .intro-title1 {
-        /* font-size: clamp(1rem, 17vw, 35vh); */
-        font-size: 168px;
+        font-size: 165px;
     }
 
     /* .hero {
@@ -679,12 +678,8 @@
 @media (max-width: 479px) {
 
     header .hero .intro-title1 {
-        font-size: 100px;
+        font-size: 95px;
     }
-
-    /* .hero {
-        bottom: -40px;
-    } */
 
     .section-6 .section-6-main .curious {
         margin: 0px 30px;
@@ -693,7 +688,19 @@
 
 @media (max-width: 425px) {
     header .hero .intro-title1 {
-        font-size: 88px;
+        font-size: 120px;
+        white-space: pre-line;
+        text-align: center;
+        line-height: 100px;
+        color: #FBFFFE;
+    }
+
+    .intro-title1.title-index {
+        padding-top: 28px;
+    }
+
+    header .hero .intro-title1 span {
+        display: none;
     }
 
     .section-6 .section-6-main .curious {
@@ -727,12 +734,27 @@
 
     header .pictures img {
         padding-top: 22px;
+        position: relative;
+        top: -50px;
+    }
+
+    .intro-title1.title-index {
+        padding: 0;
+    }
+
+    .title-index {
+        bottom: 110px;
+    }
+
+    header .container {
+        padding: 0px;
     }
 
     .squiggle1 {
-        top: -38px;
-        left: 44%;
-        width: 30px;
+        top: 85%;
+        left: 4%;
+        width: 52px;
+        transform: rotate(130deg);
     }
 
     .hero {
@@ -740,15 +762,27 @@
     }
 
     header .pictures {
-        width: 32%;
+        width: 65%;
+        position: static;
+        transform: none;
     }
 
-    header .container {
-        padding-bottom: 200px;
+    header .main-containt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .hero {
-        bottom: -55px;
+    .nav-content svg {
+       width: 150px; 
+    }
+
+    .squiggle2 {
+        display: block;
+        top: -8%;
+        left: 78%;
+        transform: rotate(108deg);
+        z-index: 9999;
     }
 
 
@@ -757,7 +791,7 @@
 
 @media (max-width: 375px) {
     header .hero .intro-title1 {
-        font-size: 80px;
+        font-size: 120px;
     }
 
     .section-1padding {
@@ -812,23 +846,32 @@
         font-size: 1.125rem;
     }
 
-    .nav-content svg {
-        width: 150px;
-    }
-
     header .pictures {
-        width: 33%;
+        width: 65%;
     }
     
 }
 
 @media (max-width: 360px) {
     header .hero .intro-title1 {
-        font-size: 75px;
+        font-size: 110px;
+        line-height: 92px;
     }
 
     header .pictures {
-        width: 34%;
+        width: 60%;
+    }
+
+    .nav-content svg {
+        width: 120px;
+    }
+
+    .hero {
+        bottom: -25px;
+    }
+
+    header {
+        padding-bottom: 40px;
     }
 }
 
